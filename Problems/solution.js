@@ -87,4 +87,4 @@ switch (day) {
     dayName = 'Invalid day';
 }
 
-console.log(dayName); // Wednesday
+console.log(dayName); 
