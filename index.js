@@ -653,7 +653,7 @@ console.log(arr1.sort());
 - The push() method adds one or more elements to the end of the array and returns the new lenght of the array
 */
 
-const animals = ['hen','goats', 'sheep'];
+const groceryItems = ['Sugar','Rice', 'Floor','Wheat','Snacks'];
 
-animals.push('chicken')
-
+groceryItems.push('Eggs');
+console.log(groceryItems);
