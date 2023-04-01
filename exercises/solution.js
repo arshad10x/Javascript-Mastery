@@ -21,3 +21,8 @@
 // true
 // null
 // undefined
+// Name: Albert
+// Age: 30
+// fasle
+
+

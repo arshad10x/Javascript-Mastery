@@ -22,8 +22,7 @@
 // x=z;
 // x=?
 
-// 6. Data Type
-
+// 6.Numbers
 // let a = 10;
 // let b = 5.7;
 // let c = 5/0;
@@ -33,18 +32,43 @@
 // console.log(c);
 // console.log(d);
 
+// 7.Boolean 
 // let age = 23;
 // let eligibleToVote = (age > 18);
 // console.log(eligibleToVote);
 
+// 8.null
 // let number = null;
 // console.log(number);
 
+// 9.undefined
 // let name;
 // console.log(name);
 
+// 10.object
+// person = {
+//     name: "Albert",
+//     age: 30,
+// };
+// console.log("Name: " + person.name);
+// console.log("Age: " + person.age);
 
 
+// 11.Symbol
+// person1 = {
+//     id: Symbol(),
+//     name: "Alice",
+//     age: 18,
+//    };
+   
+//    person2 = {
+//     id: Symbol(),
+//     name: "Albert",
+//     age: 20,
+//    };
+//    console.log(person1.id === person2.id)
+
+//12.
 
 
 
