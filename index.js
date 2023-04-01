@@ -643,4 +643,17 @@ console.log(days.sort());
 
 const arr1 = [1, 10000, 30, 34, 05, 6, 7];
 console.log(arr1.sort());
+
+
+>> Perform CURD
+
+
+> Array.prototype.push()
+
+- The push() method adds one or more elements to the end of the array and returns the new lenght of the array
 */
+
+const animals = ['hen','goats', 'sheep'];
+
+animals.push('chicken')
+
