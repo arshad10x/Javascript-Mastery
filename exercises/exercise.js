@@ -3,7 +3,6 @@
 // 2.Which value does x have after execution of the following code?
 // let x = 'Geeta';
 
-
 // 3.Declare a variable fruits and assign it the value 'apple'. Declare a second variable vegetables and assign it the value 'Onion'.
 
 // 4.Which value does color have after execution of the following code? 
@@ -11,7 +10,6 @@
 // let color = 'green';
 // color = 'red';
 // color = 'blue';
-
 
 // 5.Which value does x have after execution of the following code?
 
