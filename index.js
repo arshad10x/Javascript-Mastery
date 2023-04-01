@@ -224,29 +224,8 @@
 // }
 // else{
 //     console.log(`No need to raincoat`);
-
 // }
 
-// -- Write a program that work if a given leap year is a leap year or not
-
-// var year = 2024;
-// debugger;
-// if(year % 4 === 0){
-//     if(year % 100 === 0){
-//         if(year % 400 === 0){
-//             console.log(`Year ${year} is a leap year`);
-//         }
-//         else{
-//             console.log(`Year ${year} is not a leap year`);
-//         }
-//     }
-//     else{
-//     console.log(`Year ${year} is a leap year`);
-//     }
-// }
-// else{
-//     console.log(`Year ${year} is not a leap year`);
-// }
 
 //  >> What is truthy and falsey value in Javascript?
 
@@ -265,7 +244,10 @@
 // var age=19;
 // console.log((age>=18)? "you can vote" : "you cannot vote");
 
+
+
 // >> Switch Statement
+
 // -- Find the area of circle, triangle and rectangle?
 
 // var area='rectangle';
