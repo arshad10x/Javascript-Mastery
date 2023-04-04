@@ -66,7 +66,7 @@
 //    };
 //    console.log(person1.id === person2.id)
 
-//12.
+//12
 
 
 
