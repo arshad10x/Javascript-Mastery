@@ -224,7 +224,6 @@
 
 // 10. Write a JS code to count all letters in a word
 
-
 let str = "Suggesting";
 let charFreq = new Array(26).fill(0);
 str = str.toLowerCase();
