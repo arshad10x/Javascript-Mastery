@@ -12,7 +12,6 @@
 // > If the month is 2, and the year is not the leap year, the number of days is 28. If the year is the leap year, the number of days is 29.
 // > If the month is not in the valid range (1-12), the default branch executes and sets the dayCount variable to -1, which indicates the invalid month.
 
-
 // 5. Write a JS code to print numbers from 1 to 10
 
 // 6. Write a JS code to print Even numbers in given array
@@ -24,3 +23,5 @@
 // 9. Write a JS code to print the Fibonacci series for a given value of N
 
 // 10. Write a JS code to count all letters in a word
+
+//11.
