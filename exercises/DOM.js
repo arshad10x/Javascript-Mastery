@@ -90,97 +90,95 @@
 
    
   
-/*
-function Calculate(a, b, operation) {
-    switch (operation) {
-      case "add":
-        return a + b;
-      case "subtract":
-        return a - b;
-      case "multiply":
-        return a * b;
-      case "divide":
-        return a / b;
-      default:
-        return "Invalid Operation";
-    }
-  }
+// function Calculate(a, b, operation) {
+//     switch (operation) {
+//       case "add":
+//         return a + b;
+//       case "subtract":
+//         return a - b;
+//       case "multiply":
+//         return a * b;
+//       case "divide":
+//         return a / b;
+//       default:
+//         return "Invalid Operation";
+//     }
+//   }
   
-  var result = Calculate(10, 20, "add");
-  console.log(`The result is: ${result}`);
+//   var result = Calculate(10, 20, "add");
+//   console.log(`The result is: ${result}`);
   
-  result = Calculate(10, 20, "subtract");
-  console.log(`The result is: ${result}`);
+//   result = Calculate(10, 20, "subtract");
+//   console.log(`The result is: ${result}`);
   
-  result = Calculate(10, 20, "multiply");
-  console.log(`The result is: ${result}`);
+//   result = Calculate(10, 20, "multiply");
+//   console.log(`The result is: ${result}`);
   
-  result = Calculate(10, 20, "divide");
-  console.log(`The result is: ${result}`);
+//   result = Calculate(10, 20, "divide");
+//   console.log(`The result is: ${result}`);
   
-  result = Calculate(10, 20, "modulo");
-  console.log(`The result is: ${result}`);
+//   result = Calculate(10, 20, "modulo");
+//   console.log(`The result is: ${result}`);
 
   
 
-  function WaveShaperNode(values) {
-    if (values.length === 3) {
-      console.log("Values are for triangle");
-    } else if (values.length === 4) {
-      console.log("Values are for square");
-    } else {
-      console.log("Values are not for triangle or square");
-    }
-  }
+//   function WaveShaperNode(values) {
+//     if (values.length === 3) {
+//       console.log("Values are for triangle");
+//     } else if (values.length === 4) {
+//       console.log("Values are for square");
+//     } else {
+//       console.log("Values are not for triangle or square");
+//     }
+//   }
   
-  WaveShaperNode([10, 10, 10, 10]);
+//   WaveShaperNode([10, 10, 10, 10]);
   
-  WaveShaperNode([10, 10, 10]);
+//   WaveShaperNode([10, 10, 10]);
   
-  WaveShaperNode([10, 10, 10, 10, 10]);
+//   WaveShaperNode([10, 10, 10, 10, 10]);
 
-  function Shapes(side1, side2, side3, side4){
-    if(side1 === side2 && side2 === side3 && side3 === side4){
-      return 'This value is for Square..';
-     }
-    else if(side1 === side3 && side2 === side4){
-      return 'This value is for Ractangle..';
-    }
-    else{
-      return 'Values are not valid for Square and Ractangle..'
-    }
-    }
-    var result = Shapes(10, 20, 10, 10);
-    var result1 = Shapes(10, 20, 10, 20);
-    document.write(result);
+//   function Shapes(side1, side2, side3, side4){
+//     if(side1 === side2 && side2 === side3 && side3 === side4){
+//       return 'This value is for Square..';
+//      }
+//     else if(side1 === side3 && side2 === side4){
+//       return 'This value is for Ractangle..';
+//     }
+//     else{
+//       return 'Values are not valid for Square and Ractangle..'
+//     }
+//     }
+//     var result = Shapes(10, 20, 10, 10);
+//     var result1 = Shapes(10, 20, 10, 20);
+//     document.write(result);
 
-  function Shape(values){
-    if(values.length === 3){
-     return 'This Value is for Tringle ';
-    }
-    else if(values.length === 4){
-     return 'This value is for Square';
-    }
-    else{
-     return 'Enter valid number for Shapes';
-    }
-   }
-   var result = Shape([10, 10, 10]);
-   var result1 = Shape([10, 10, 10, 10]);
-   var result2 = Shape([10, 10, 10, 10, 10]);
-   document.write(result,'<br>', result1,'<br>',result2);
+//   function Shape(values){
+//     if(values.length === 3){
+//      return 'This Value is for Tringle ';
+//     }
+//     else if(values.length === 4){
+//      return 'This value is for Square';
+//     }
+//     else{
+//      return 'Enter valid number for Shapes';
+//     }
+//    }
+//    var result = Shape([10, 10, 10]);
+//    var result1 = Shape([10, 10, 10, 10]);
+//    var result2 = Shape([10, 10, 10, 10, 10]);
+//    document.write(result,'<br>', result1,'<br>',result2);
 
-   function multipleShapes(side1, side2, side3) {
-    if (side1 === side2 && side1 === side3) {
-      return "Equilateral Triangle";
-    } else if (side1 === side2 || side2 === side3 || side1 === side3) {
-      return "Isosceles Triangle";
-    } else {
-      return "Scalene Triangle";
-    }
-  }
+//    function multipleShapes(side1, side2, side3) {
+//     if (side1 === side2 && side1 === side3) {
+//       return "Equilateral Triangle";
+//     } else if (side1 === side2 || side2 === side3 || side1 === side3) {
+//       return "Isosceles Triangle";
+//     } else {
+//       return "Scalene Triangle";
+//     }
+//   }
 
-  document.write(multipleShapes(10, 10, 10));
-  document.write(multipleShapes(10, 20, 20));
-  document.write(multipleShapes(10, 20, 30));
-  */
+//   document.write(multipleShapes(10, 10, 10));
+//   document.write(multipleShapes(10, 20, 20));
+//   document.write(multipleShapes(10, 20, 30));
