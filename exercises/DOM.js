@@ -1,34 +1,35 @@
 //------------------------------------------------------
-/*  USER INPUT
+//  USER INPUT
 
-let username;
-document.getElementById('myButton').onclick=function(){
-    username=document.getElementById('myText').value;
-   document.getElementById('myLabel').innerHTML="Hello"+username;
-}
+// let username;
+// document.getElementById('myButton').onclick=function(){
+//     username=document.getElementById('myText').value;
+//    document.getElementById('myLabel').innerHTML="Hello"+username;
+// }
 
-let age=window.prompt("How old are you?");
-console.log(typeof(age));
-age=Number(age);
-age+=1;
-console.log(`You are ${age} years old`);
-*/
+// let age=window.prompt("How old are you?");
+// console.log(typeof(age));
+// age=Number(age);
+// age+=1;
+// console.log(`You are ${age} years old`);
+
+
 //------------------------------------------------------
 
-/*TYPE CONVERSION
+// TYPE CONVERSION
 
-let x;
-let y;
-let z;
+// let x;
+// let y;
+// let z;
 
 
-x=Number("3.14");
-y=String("3.14");
-z=Boolean("abc");
-console.log(x,typeof x );
-console.log(y,typeof y );
-console.log(z,typeof z );
-*/
+// x=Number("3.14");
+// y=String("3.14");
+// z=Boolean("abc");
+// console.log(x,typeof x );
+// console.log(y,typeof y );
+// console.log(z,typeof z );
+
 //------------------------------------------------------
 
 /*CONST
