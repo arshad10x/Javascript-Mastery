@@ -32,61 +32,61 @@
 
 //------------------------------------------------------
 
-/*CONST
+// CONST
 
-const PI=3.14;
-let radius;
-let circumference;
+// const PI=3.14;
+// let radius;
+// let circumference;
 
-radius=window.prompt("Enter the radius of a circle");
-radius=Number(radius);
+// radius=window.prompt("Enter the radius of a circle");
+// radius=Number(radius);
 
-circumference=2 * PI * radius;
+// circumference=2 * PI * radius;
 
-console.log("The circumference is: ", circumference);
-*/
+// console.log("The circumference is: ", circumference);
+
 //------------------------------------------------------
 
-/* MATH FUNCTION
+//  MATH FUNCTION
 
 
-let x=3.14;
-let y=5;
-let z=10;
-let maximun;
-let minimum;
-x=Math.round(x);
-x=Math.ceil(x);
-x=Math.pow(x,2);
-x=Math.sqrt(x);
-x=Math.abs(x)
-maximun=Math.max(x,y,z);
-minimum = Math.min(x,y,z);
-x=Math.PI
-console.log(x);
-*/
+// let x=3.14;
+// let y=5;
+// let z=10;
+// let maximun;
+// let minimum;
+// x=Math.round(x);
+// x=Math.ceil(x);
+// x=Math.pow(x,2);
+// x=Math.sqrt(x);
+// x=Math.abs(x)
+// maximun=Math.max(x,y,z);
+// minimum = Math.min(x,y,z);
+// x=Math.PI
+// console.log(x);
 
-/*Find hypotenouse 
 
-let a;
-let b;
-let c;
+// Find hypotenouse 
+
+// let a;
+// let b;
+// let c;
 
  
 
-document.getElementById("submitButton").onclick=function(){
-    a=document.getElementById("aTextBox").value;
-    a=Number(a);
+// document.getElementById("submitButton").onclick=function(){
+//     a=document.getElementById("aTextBox").value;
+//     a=Number(a);
    
-    b=document.getElementById("bTextBox").value;
+//     b=document.getElementById("bTextBox").value;
 
-    b=Number(b);
+//     b=Number(b);
    
-    c=Math.round(Math.sqrt(Math.pow(a,2)+Math.pow(b,2)));
+//     c=Math.round(Math.sqrt(Math.pow(a,2)+Math.pow(b,2)));
    
-    document.getElementById("cLabel").innerHTML="Side C: "+c;
-}
-*/
+//     document.getElementById("cLabel").innerHTML="Side C: "+c;
+// }
+
 
    
   
