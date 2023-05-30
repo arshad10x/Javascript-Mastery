@@ -1,7 +1,7 @@
-// 1.Declare a variable firstname and initialize it with the value 'Javascript'.
+// 1.Declare a variable firstName and initialize it with the value 'Javascript'.
 
 // 2.Which value does x have after execution of the following code?
-// let x = 'Geeta';
+// let x = 'John';
 
 // 3.Declare a variable fruits and assign it the value 'apple'. Declare a second variable vegetables and assign it the value 'Onion'.
 
@@ -15,7 +15,7 @@
 
 // let x = 'Peter';
 // let y = 'Parker';
-// let z = 'spiderman';
+// let z = 'spiderMan';
 // y=x;
 // x=z;
 // x=?
@@ -24,7 +24,7 @@
 // let a = 10;
 // let b = 5.7;
 // let c = 5/0;
-// let d = "helo Js"/5;
+// let d = "hello Js"/5;
 // console.log(a);
 // console.log(b);
 // console.log(c);
@@ -66,7 +66,6 @@
 //    };
 //    console.log(person1.id === person2.id)
 
-//12
 
 
 

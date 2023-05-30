@@ -1,8 +1,8 @@
 // 1. 
-// firstname = "Javascript";
+// firstName = "Javascript";
 
 // 2.
-// 'Geeta'
+// 'John'
 
 // 3.
 // let fruits = "apple";
@@ -12,7 +12,7 @@
 // blue
 
 // 5. Assign variable
-// spiderman
+// spiderMan
 
 // 6.
 // a=10, b=5.7
@@ -23,6 +23,19 @@
 // undefined
 // Name: Albert
 // Age: 30
-// fasle
+// false
 
+// 7.
+//true
 
+// 8.
+// null
+
+// 9.
+// undefined
+
+// 10.
+//Name: Albert Age: 30
+
+// 11.
+// false
