@@ -9,7 +9,6 @@
 
 
 
-
 // > Traversal in Array
 
 // navigate through an array
