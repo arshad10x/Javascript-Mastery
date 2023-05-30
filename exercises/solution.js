@@ -1,3 +1,5 @@
+// SOLUTIONS
+
 // 1. 
 // firstName = "Javascript";
 
