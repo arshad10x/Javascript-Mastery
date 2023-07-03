@@ -1,4 +1,4 @@
-# JavaScript Interview Questions & Answers
+# 400+ JavaScript Interview Questions & Answers
 
 ### Table of Contents
 
