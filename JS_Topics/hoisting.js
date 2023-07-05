@@ -1,8 +1,8 @@
-// getName();
-// console.log(x)
+getName();
+console.log(x)
 
-// var  x =10;
+var  x =10;
 
-// function getName(){
-//     console.log('Hoisting in JavaScript');
-// }
+function getName(){
+    console.log('Hoisting in JavaScript');
+}
