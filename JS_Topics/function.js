@@ -56,3 +56,29 @@
 //     console.log(x);
 // }
  
+
+// function name(a){
+//     console.log('Hello ' + a)
+// }
+// name('learners');
+
+// function add(a,b,c){
+//     return a+b+c;
+// }
+// let x=10;
+// let y=20;
+// let addition = add (x,y,20)
+// console.log(addition);
+
+
+// global var and local var
+
+let a =5;
+
+function local(){
+    let b=3;
+    console.log(b)
+}
+console.log(a)
+local()
+
