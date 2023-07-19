@@ -73,12 +73,24 @@
 
 // global var and local var
 
-let a =5;
+// let a =5;
 
-function local(){
-    let b=3;
-    console.log(b)
-}
-console.log(a)
-local()
+// function local(){
+//     let b=3;
+//     console.log(b)
+// }
+// console.log(a)
+// local()
 
+
+// IIFE
+
+// (function(){
+//     console.log("Hello");
+// })();
+
+
+// arrow Function
+
+let a =(a,b)=>console.log(a+b);
+a(2,4)
