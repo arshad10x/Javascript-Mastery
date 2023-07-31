@@ -191,3 +191,40 @@
 // console.log(groceries);
 
 
+// ================================================
+
+
+// let name = ['a','b','c','d']
+// name.push('f');
+// name.unshift('e');
+// console.log(name)
+// console.log(name[2]);
+// console.log(name.length);
+
+// let name = ['ash','bsh','csh','dsh']
+// name.splice(1,2);
+// console.log(name);
+
+
+
+// forEach vs Map
+
+// const numbers = [1, 2, 3, 4, 5];
+// const squaredNumbers = numbers.map((num) => num * num);
+
+// console.log(squaredNumbers); // Output: [1, 4, 9, 16, 25]
+
+// const fruits = ["apple", "banana", "orange"];
+// fruits.forEach((fruit) => console.log(fruit));
+
+// let num = [10,30,50,35,20];
+// let num1 = [10,20,30];
+// let num2 = [40,50,60,10];
+// let a =num.slice(1,4)
+// console.log(a);
+// console.log(num1.concat(num2));
+// console.log(num2.indexOf(40));
+// console.log(num1.reverse());
+// console.log(num.sort());
+
+
