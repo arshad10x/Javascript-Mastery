@@ -9,7 +9,7 @@ function getDatas(){
     setTimeout(()=>{
         let output="";
         datas.forEach((data,index)=>{
-            output+=`<li>${data.name}</li>`
+            output+=`<li>${data.name + " - " +  data.Profession}</li>`
         })
         document.body.innerHTML=output
     },1000)
@@ -22,4 +22,4 @@ function createData(newData,callback){
     },2000)
 }
 
-createData({name:"Asim", Profession:"UI DEveloper"},getDatas)
+createData({name:"Asim", Profession:"UI Developer"},getDatas);
