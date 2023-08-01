@@ -29,4 +29,15 @@ function createData(newData){
     })
 }
 
-createData({name:"Asim", Profession:"UI Developer"}).then(getDatas).catch(err=>console.log(err));
+/*createData({name:"Asim", Profession:"UI Developer"})
+.then(getDatas)
+.catch(err=>console.log(err));
+*/
+
+// Async & Await
+
+async function start(){
+   await createData({name:"Asim", Profession:"UI Developer"})
+   getDatas();
+}
+start()
