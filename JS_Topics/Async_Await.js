@@ -17,11 +17,16 @@ function getDatas(){
 
 function createData(newData){
     return new Promise((resolve,reject)=>{
-
+        setTimeout(()=>{
+            datas.push(newData);
+            let error=false;
+            if(!error){
+                resolve();
+            }else{
+                reject("Wrong")
+            }
+        },2000)
     })
-    setTimeout(()=>{
-        datas.push(newData);
-    },2000)
 }
 
-createData({name:"Asim", Profession:"UI Developer"});
+createData({name:"Asim", Profession:"UI Developer"}).then(getDatas).catch(err=>console.log(err));
