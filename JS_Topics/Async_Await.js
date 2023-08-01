@@ -15,13 +15,12 @@ function getDatas(){
     },1000) 
 }
 
-function createData(newData,callback){
+function createData(newData){
     return new Promise((resolve,reject)=>{
 
     })
     setTimeout(()=>{
         datas.push(newData);
-        callback();
     },2000)
 }
 
