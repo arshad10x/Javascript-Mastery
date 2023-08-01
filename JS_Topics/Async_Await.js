@@ -1,4 +1,4 @@
-// Async JS
+// Promises, callback, async & await
 
 const datas=[
     {name:"arsh",Profession:'UI Developer'},
