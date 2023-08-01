@@ -12,14 +12,17 @@ function getDatas(){
             output+=`<li>${data.name + " - " +  data.Profession}</li>`
         })
         document.body.innerHTML=output
-    },1000)
+    },1000) 
 }
 
 function createData(newData,callback){
+    return new Promise((resolve,reject)=>{
+
+    })
     setTimeout(()=>{
         datas.push(newData);
         callback();
     },2000)
 }
 
-createData({name:"Asim", Profession:"UI Developer"},getDatas);
+createData({name:"Asim", Profession:"UI Developer"});
