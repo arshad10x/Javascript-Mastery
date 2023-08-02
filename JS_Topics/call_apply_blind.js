@@ -6,17 +6,27 @@ let userDetails1 = {
     name:'Arshad',
     age:24,
     Designation: "UI Developer",
-    printDetails:function(){
-        console.log(this);
-    }
+   
 }
 
-userDetails1.printDetails();
+let printDetails=function(state){
+    console.log(this.name+ " " + state) ;
+}
+
+printDetails.call(userDetails1,"Maharashtra");
 
 let userDetails2 = {
-    name:'Arshad',
+    name:'Arsh',
     age:24,
     Designation: "UI Developer",
     
 }
-userDetails1.printDetails.call(userDetails2)
+printDetails.call(userDetails2);
+
+let userDetails3 = {
+    name:'Arish',
+    age:24,
+    Designation: "UI Developer",
+    
+}
+printDetails.call(userDetails3);
