@@ -36,4 +36,4 @@ printDetails.apply(userDetails3,["Maharashtra","India"]);
 
 //Bind
 let newDetails= printDetails.bind(userDetails1,"Maharashtra","India")
-newDetails()
+newDetails();
