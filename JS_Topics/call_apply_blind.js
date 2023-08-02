@@ -9,8 +9,8 @@ let userDetails1 = {
    
 }
 
-let printDetails=function(state){
-    console.log(this.name+ " " + state) ;
+let printDetails=function(state,country){
+    console.log(this.name+ " " + state + " " + country) ;
 }
 
 printDetails.call(userDetails1,"Maharashtra");
@@ -30,3 +30,10 @@ let userDetails3 = {
     
 }
 printDetails.call(userDetails3);
+
+//Apply
+printDetails.apply(userDetails3,["Maharashtra","India"]);
+
+//Bind
+let newDetails= printDetails.bind(userDetails1,"Maharashtra","India")
+newDetails()
