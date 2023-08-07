@@ -1,1 +1,1 @@
-// ma function
+// map function
