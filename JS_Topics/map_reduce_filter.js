@@ -11,4 +11,3 @@ const companies =[
     {name:"Amazon", categort:"Product Based"},
     {name:"Mindtree", categort:"Service Based"}
 ]
-console.log(companies.filter(name))
