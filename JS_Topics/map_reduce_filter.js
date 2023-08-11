@@ -2,3 +2,6 @@
 
 // forEach
 // filter
+// map
+// sort
+// reduce
