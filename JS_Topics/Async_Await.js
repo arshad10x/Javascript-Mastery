@@ -36,8 +36,8 @@ function createData(newData){
 
 // Async & Await
 
-async function start(){
-   await createData({name:"Asim", Profession:"UI Developer"})
-   getDatas();
-}
-start()
+// async function start(){
+//    await createData({name:"Asim", Profession:"UI Developer"})
+//    getDatas();
+// }
+// start()
